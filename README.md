@@ -1,5 +1,5 @@
 # python_systemstats
-Read Linux System statistics, like System Load, CPU/Ram Usage and Disk utilization with a python script. Also you can publish the data to a MQTT Broker. So it is possible to use the data somewhere else, for example in your smarthome enviroment. For that usage, there is a homie convention based script, which you can run as systemd service.
+Reads Linux System statistics, like System Load, CPU/Ram Usage and Disk utilization with a python script. Also you can publish the data to a MQTT Broker. So it is possible to use the data somewhere else, for example in your smarthome enviroment. For that usage, there is a homie convention based script, which you can run as systemd service.
 
 # Requirements
 you need to install the following requirements for python3
