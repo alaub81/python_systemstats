@@ -40,7 +40,7 @@ def on_connect(client, userdata, flags, rc):
   publish(nodes + "/$name","System Statistics")
   publish(nodes + "/$properties","uptime,uptimemin,cputemp,cpuusage,load1,load5,load15,ramtotal,ramused,ramfree,rampercentused,disktotal,diskused,diskfree,diskpercentused")
   publish(nodes + "/uptime/$name","System Uptime")
-  publish(nodes + "/uptime/$datatype","float")
+  publish(nodes + "/uptime/$datatype","string")
   publish(nodes + "/uptimemin/$name","System Uptime in Minutes")
   publish(nodes + "/uptimemin/$unit","min")
   publish(nodes + "/uptimemin/$datatype","float")
