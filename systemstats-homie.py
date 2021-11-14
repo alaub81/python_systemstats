@@ -20,9 +20,9 @@ retain_message = True
 # Retry to connect to mqtt broker
 mqttretry = 5
 # how often should be a publish to MQTT (in Seconds)
-publishtime=30
+publishtime = 30
 # Show System Stat output
-showinfo=False
+showinfo = False
 
 # do the stuff
 ### Functions
